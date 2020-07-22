@@ -1,0 +1,17 @@
+#ifndef CVODE_RS_WRAPPER_H
+#define CVODE_RS_WRAPPER_H
+#include <nvector/nvector_serial.h>
+#include <sunlinsol/sunlinsol_band.h>
+#include <sunlinsol/sunlinsol_spbcgs.h>
+#include <sunlinsol/sunlinsol_spgmr.h>
+#include <sunlinsol/sunlinsol_dense.h>
+#include <sunlinsol/sunlinsol_pcg.h>
+#include <sunlinsol/sunlinsol_spfgmr.h>
+#include <sunlinsol/sunlinsol_sptfqmr.h>
+#include <sunmatrix/sunmatrix_band.h>
+#include <sunmatrix/sunmatrix_dense.h>
+#include <sunmatrix/sunmatrix_sparse.h>
+#include <sunnonlinsol/sunnonlinsol_fixedpoint.h>
+#include <sunnonlinsol/sunnonlinsol_newton.h>
+#include <cvode/cvode.h>
+#endif //CVODE_RS_WRAPPER_H

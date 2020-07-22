@@ -1,0 +1,10 @@
+[package]
+name = "cvode-rs"
+version = "0.1.0"
+authors = ["Brian Merchant <bhmerchant@gmail.com>"]
+edition = "2018"
+
+[build-dependencies]
+bindgen = "0.54.1"
+
+[dependencies]
